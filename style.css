@@ -70,9 +70,13 @@ nav .logo_nav a{
     font-size: 4rem;
     text-align: center;
 }.arrow{
-    display: none;
+    height: 50px;
+    position: fixed;
+    top: 720px;
+    transform: rotate(180deg);
+    border: 1px solid black;
+    border-radius: 50%;
 }
-
 /* About Section*/
 .about{
     height: 100vh;
